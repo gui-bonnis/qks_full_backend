@@ -1,0 +1,11 @@
+[versions]
+groovy_v = "3.0.5"
+javaformat_v = "0.0.35"
+junit_api_v = "5.8.1"
+junit_eng_v = "5.8.1"
+
+[libraries]
+groovy-core = { module = "org.codehaus.groovy:groovy", version.ref = "groovy_v" }
+spring-javaformat = { module = "io.spring.javaformat:spring-javaformat-gradle-plugin", version.ref = "javaformat_v" }
+junit-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit_api_v" }
+junit-eng = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit_eng_v" }
